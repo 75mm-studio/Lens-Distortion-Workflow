@@ -24,18 +24,23 @@
 
 ### Install
 
+1. `ldpk 경로`에 있는 플러그인 파일(`*.dll` `*.dylib` `*.so`)들을 복사 <kbd>ctrl+c</kbd>
+2. `뉴크 plugins 경로`에 붙여넣기 <kbd>ctrl+v</kbd>
+
 - Windows
-    - 설치 파일 경로: `<path_to_dir>\ldpk-X.X\compiled\nuke\windows\<version>\*.dll`
-    - 뉴크 플러그인 경로: `C:\Program Files\<version>\plugins`
+    - ldpk 경로: `<path_to_dir>\ldpk-X.X\compiled\nuke\windows\<version>\*.dll`
+    - 뉴크 plugins 경로: `C:\Program Files\<version>\plugins`
 
 - MacOS
-    - 설치 파일 경로: `<path_to_dir>/ldpk-X.X/compiled/nuke/osx/<version>/*.dylib`
-    - 뉴크 플러그인 경로: `/Applications/<version>/<version>.app/Contents/MacOS/plugins`
+    - ldpk 경로: `<path_to_dir>/ldpk-X.X/compiled/nuke/osx/<version>/*.dylib`
+    - 뉴크 plugins 경로: `/Applications/<version>/<version>.app/Contents/MacOS/plugins`
 
 - Linux (CentOS 7.6)
-    - 설치 파일 경로: `<path_to_dir>/ldpk-X.X/compiled/nuke/linux/<version>/*.so`
-    - 뉴크 플러그인 경로: `/usr/local/<version>/plugins`
-    ![linux_install_ldpk](imgs/linux_install_ldpk.png)
+    - ldpk 경로: `<path_to_dir>/ldpk-X.X/compiled/nuke/linux/<version>/*.so`
+    - 뉴크 plugins 경로: `/usr/local/<version>/plugins`
+
+<Example>
+![linux_install_ldpk](imgs/linux_install_ldpk.png)
 
 ---
 
