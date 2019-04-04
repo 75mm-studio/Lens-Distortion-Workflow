@@ -10,6 +10,16 @@
 | LDPK | `사용법이 간단하다` `해상도에 종속되지 않는다` | `느리다` `설치가 필요하다` |
 | STMAP | `매우 빠르다` | `파일 용량이 크다` |
 
+## Overview
+
+```
+Original Plate Size: 1920 X 1080
+Overscan Value: 1.25
+Undistort Plate Size: 2400 X 1350
+```
+1. 3DEqualizer에서 Warp4 플러그인을 사용해서 Undistort Plate를 생성한다.
+1. Maya에서 Un
+
 ## Lens Distortion Plugin Kit(LDPK)
 
 ### Download
@@ -66,18 +76,19 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('
 
 ---
 
-### Create
+### Export Lens Distortion Node
 
 
 
 ---
 
-### Undistort
+### Undistort Original Plate
 
 
-### Distort
+### Distort Render Elements
 
 1. Read Node
+    - Image Size: 2400 X 1350
 
 ![distort_checkerboard_dewarped](imgs/distort_checkerboard_dewarped.png)
 
