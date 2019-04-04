@@ -25,7 +25,7 @@
 ### Install
 
 1. `ldpk 경로`에 있는 플러그인 파일(`*.dll` `*.dylib` `*.so`)들을 복사 <kbd>ctrl+c</kbd>
-2. `뉴크 plugins 경로`에 붙여넣기 <kbd>ctrl+v</kbd>
+2. `뉴크 plugins 경로`에 붙여넣기 <kbd>ctrl+v</kbd>. 리눅스에서는 Root 권한이 필요하다.
 
 - Windows
     - ldpk 경로: `<path_to_dir>\ldpk-X.X\compiled\nuke\windows\<version>\*.dll`
@@ -40,6 +40,7 @@
     - 뉴크 plugins 경로: `/usr/local/<version>/plugins`
 
 <Example>
+    
 ![linux_install_ldpk](imgs/linux_install_ldpk.png)
 
 ---
