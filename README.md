@@ -35,6 +35,7 @@
 - Linux (CentOS 7.6)
     - 설치 파일 경로: `<path_to_dir>/ldpk-X.X/compiled/nuke/linux/<version>/*.so`
     - 뉴크 플러그인 경로: `/usr/local/<version>/plugins`
+    ![linux_install_ldpk](imgs/linux_install_ldpk.png)
 
 ---
 
