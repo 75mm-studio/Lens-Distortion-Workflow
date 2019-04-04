@@ -1,4 +1,4 @@
-# Lens Distortion Workflow
+# 3DEqualizer to Nuke - Lens Distortion Workflow
 
 - 3DEqualizer에서는 세 가지 워크플로우를 제공하고 있다. [참고영상](https://www.youtube.com/watch?v=khMwtfmynac).
 - 회사에 실정에 맞는 워크플로우를 선택하면 된다.
@@ -23,6 +23,18 @@
     ![download_ldpk](imgs/download_ldpk.png)
 
 ### Install
+
+- Windows
+    설치 파일 경로: `ldpk-X.X/compiled/nuke/windows/NukeXX.X/*.dll`
+    뉴크 플러그인 경로: `C:\Program Files\NukeXX.XvX\plugins`
+
+- MacOS
+    설치 파일 경로: `ldpk-X.X/compiled/nuke/osx/NukeXX.X/*.dylib`
+    뉴크 플러그인 경로: `/`
+
+- Linux (CentOS 7.6)
+    설치 파일 경로: `ldpk-X.X/compiled/nuke/linux/NukeXX.X/*.so`
+    뉴크 플러그인 경로: `/usr/local/NukeXX.XvX/plugins`
 
 ---
 
