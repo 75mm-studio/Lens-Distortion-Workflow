@@ -2,7 +2,7 @@
 
 - 3DEqualizer에서는 세 가지 워크플로우를 제공하고 있다. [참고영상](https://www.youtube.com/watch?v=khMwtfmynac).
 - 회사에 실정에 맞는 워크플로우를 선택하면 된다.
-- 프로덕션에서는 주로 `LDPK`나 `STMAP`을 주로 사용한다.
+- 프로덕션에서는 `LDPK`나 `STMAP`을 주로 사용한다.
 
 | 방법 | 장점 | 단점 |
 | :---: | :---: | :---: |
@@ -48,6 +48,19 @@ Root 권한으로 cp 명령어를 통해 파일들을 복사 붙여넣기 할 �
 <Example>
     
 ![linux_install_ldpk](imgs/linux_install_ldpk.png)
+
+3. 노드 메뉴에 등록하기(선택)
+
+뉴크 plugins 경로 안에 있는 `menu.py` 파일에 아래 코드 추가하기
+
+```
+nuke.menu("Nodes").addCommand("3DE4/LD_3DE4_Anamorphic_Standard_Degree_4", "nuke.createNode('LD_3DE4_Anamorphic_Standard_Degree_4')")
+nuke.menu("Nodes").addCommand("3DE4/LD_3DE4_Anamorphic_Rescaled_Degree_4", "nuke.createNode('LD_3DE4_Anamorphic_Rescaled_Degree_4')")
+nuke.menu("Nodes").addCommand("3DE4/LD_3DE4_Anamorphic_Degree_6", "nuke.createNode('LD_3DE4_Anamorphic_Degree_6')")
+nuke.menu("Nodes").addCommand("3DE4/LD_3DE4_Radial_Standard_Degree_4", "nuke.createNode('LD_3DE4_Radial_Standard_Degree_4')")
+nuke.menu("Nodes").addCommand("3DE4/LD_3DE4_Radial_Fisheye_Degree_8", "nuke.createNode('LD_3DE4_Radial_Fisheye_Degree_8')")
+nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('LD_3DE_Classic_LD_Model')")
+```
 
 ---
 
