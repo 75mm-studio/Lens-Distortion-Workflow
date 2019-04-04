@@ -60,6 +60,8 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE4_Radial_Fisheye_Degree_8", "nuke.crea
 nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('LD_3DE_Classic_LD_Model')")
 ```
 
+![node_menu_ldpk](imgs/node_menu_ldpk.png)
+
 ---
 
 ### Create
