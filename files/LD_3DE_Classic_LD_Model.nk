@@ -1,0 +1,14 @@
+set cut_paste_input [stack 0]
+version 11.3 v3
+push $cut_paste_input
+LD_3DE_Classic_LD_Model {
+ direction distort
+ tde4_focal_length_cm 24
+ tde4_filmback_width_cm 3.6
+ tde4_filmback_height_cm {2.025}
+ Distortion 0.2
+ name LD_3DE_Classic_LD_Model1
+ selected true
+ xpos 150
+ ypos -104
+}
