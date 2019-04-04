@@ -16,10 +16,11 @@
 
 1. 3DEqualizer 공식 홈페이지 Tech Docs 접속. [링크](https://www.3dequalizer.com/index.php?site=tech_docs).
 
-1. Lens Distortion Plugin X.X 클릭
+1. Lens Distortion Plugin Kit vX.X 카드 클릭.
+    ![nav_ldpk](imgs/nav_ldpk.png)
 
-![nav_ldpk](imgs/nav_ldpk.png)
-
+1. Lens Distortion Plugin Kit vX.X 다운로드 링크 클릭.
+    ![download_ldpk](imgs/download_ldpk.png)
 
 ### Install
 
