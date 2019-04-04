@@ -25,16 +25,16 @@
 ### Install
 
 - Windows
-    설치 파일 경로: `ldpk-X.X/compiled/nuke/windows/NukeXX.X/*.dll`
-    뉴크 플러그인 경로: `C:\Program Files\NukeXX.XvX\plugins`
+    - 설치 파일 경로: `ldpk-X.X/compiled/nuke/windows/NukeXX.X/*.dll`
+    - 뉴크 플러그인 경로: `C:\Program Files\NukeXX.XvX\plugins`
 
 - MacOS
-    설치 파일 경로: `ldpk-X.X/compiled/nuke/osx/NukeXX.X/*.dylib`
-    뉴크 플러그인 경로: `/`
+    - 설치 파일 경로: `ldpk-X.X/compiled/nuke/osx/NukeXX.X/*.dylib`
+    - 뉴크 플러그인 경로: `/`
 
 - Linux (CentOS 7.6)
-    설치 파일 경로: `ldpk-X.X/compiled/nuke/linux/NukeXX.X/*.so`
-    뉴크 플러그인 경로: `/usr/local/NukeXX.XvX/plugins`
+    - 설치 파일 경로: `ldpk-X.X/compiled/nuke/linux/NukeXX.X/*.so`
+    - 뉴크 플러그인 경로: `/usr/local/NukeXX.XvX/plugins`
 
 ---
 
