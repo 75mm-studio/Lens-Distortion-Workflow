@@ -1,4 +1,4 @@
-# 3DEqualizer to Nuke - Lens Distortion Workflow
+# 3DEqualizer to Nuke
 
 ## Overview
 
