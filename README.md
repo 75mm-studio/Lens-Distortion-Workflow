@@ -5,18 +5,21 @@
 ### Methods
 
 - 3DEqualizer에서는 세 가지 워크플로우를 제공하고 있다. [참고영상](https://www.youtube.com/watch?v=khMwtfmynac).
-- 회사에 실정에 맞는 워크플로우를 선택하면 된다.
+- 회사의 실정에 맞는 워크플로우를 선택하면 된다.
 - 프로덕션에서는 `LDPK`나 `STMAP`을 주로 사용한다.
 
 | 방법 | 장점 | 단점 |
 | :---: | :---: | :---: |
 | Grid Warp | `설치가 필요없다` `빠르다` | `해상도에 종속된다` |
 | LDPK | `사용법이 간단하다` `해상도에 종속되지 않는다` | `느리다` `설치가 필요하다` |
-| STMAP | `매우 빠르다` | `파일 용량이 크다` |
+| STMAP | `매우 빠르다` | `¨파일 용량이 크다` |
+
+`¨STMAP은 일반적으로 '32-bit exr' 파일로 저장하기 때문에 용량이 굉장히 크다.`
 
 ### Workflow
 
 ```
+<Example Data>
 Original Plate Size: 1920 x 1080
 Overscan Value: 1.25
 Undistort Plate Size: 2400 x 1350
@@ -71,7 +74,7 @@ Root 권한으로 cp 명령어를 통해 파일들을 복사 붙여넣기 할 �
 
 3. 노드 메뉴에 등록하기 (선택)
 
-    - `뉴크 plugins 경로` 안에 있는 `menu.py` 파일에 아래 코드 추가하기
+`뉴크 plugins 경로` 안에 있는 `menu.py` 파일에 아래 코드 추가하기
 
 ```
 nuke.menu("Nodes").addCommand("3DE4/LD_3DE4_Anamorphic_Standard_Degree_4", "nuke.createNode('LD_3DE4_Anamorphic_Standard_Degree_4')")
@@ -100,13 +103,13 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('
     - resize type: <kbd>none</kbd>  <kbd>x</kbd>center
     - filter: <kbd>x</kbd>preserve bounding box
 
-1. LDPK Node
+1. LD(Lens Distortion) Node
     - 3DEqualizer에서 Export 한 `<lens_distortion_node>.nk`파일을 Import 한다.
         - `Drag & Drop` or `File >> Insert Comp Nodes...`
     - direction: <kbd>distort</kbd>
 
 1. Merge Node
-    - Merge `LDPK Node` over `Original Plate`
+    - Merge `LD Node` over `Original Plate`
 
 ## STMAP
 
