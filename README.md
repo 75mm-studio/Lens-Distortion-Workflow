@@ -15,7 +15,6 @@
 | STMAP | `매우 빠르다` | `파일 용량이 크다` |
 
 ### Workflow
-
 ```
 Original Plate Size: 1920 x 1080
 Overscan Value: 1.25
@@ -104,8 +103,9 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('
     ![maya_render](imgs/maya_render.png)
 
 1. Reformat Node
-    - output format: <original plate size>
+    - output format: 1920 x 1080
     - resize type: <kbd>none</kbd>  <kbd>x</kbd>center
+    - filter: <kbd>x</kbd>preserve bounding box
 
 1. LDPK Node
     - direction: <kbd>distort</kbd>
