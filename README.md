@@ -92,7 +92,7 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('
 
 ---
 
-### Distort Render Elements
+### Redistort Render Image
 
 #### Node Tree
 
@@ -107,9 +107,8 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('
     - output format: <original plate size>
     - resize type: <kbd>none</kbd>  <kbd>x</kbd>center
 
-
 1. LDPK Node
     - direction: <kbd>distort</kbd>
 
 1. Merge Node
-    - Merge with `Original Plate``
+    - Merge `Redistorted Render Image` with `Original Plate`
