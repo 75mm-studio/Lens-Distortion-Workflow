@@ -97,13 +97,11 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('
 
 ![nuke_tree](imgs/nuke_tree.png)
 
-1. Read Node
-    - Render Image Size: 2400 x 1350
-    
+1. Read Node    
     ![maya_render](imgs/maya_render.png)
 
 1. Reformat Node
-    - output format: 1920 x 1080
+    - output format: `Original Plate Size` ex)1920 x 1080
     - resize type: <kbd>none</kbd>  <kbd>x</kbd>center
     - filter: <kbd>x</kbd>preserve bounding box
 
