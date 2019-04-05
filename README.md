@@ -15,6 +15,7 @@
 | STMAP | `매우 빠르다` | `파일 용량이 크다` |
 
 ### Workflow
+
 ```
 Original Plate Size: 1920 x 1080
 Overscan Value: 1.25
@@ -27,7 +28,7 @@ Render Image Size: 2400 x 1350
     - `Original Plate Size` x `Overscan Value` = `Undistort Plate Size`
     - `1920 x 1.25 = 2400` `1080 x 1.25 = 1350`
 1. **Maya에서 Render Image Size는 Undistort Plate Size와 동일해야 한다.** :warning:**매우 중요**:warning:
-1. Nuke에서 `Render Image`를 `Redistort`해서 `Original Plate`에 합성한다.
+1. Nuke에서 Render Image(2400 x 1350)를 `Redistort`해서 Original Plate(1920 x 1080)에 합성한다.
 
 ## Lens Distortion Plugin Kit(LDPK)
 
@@ -83,13 +84,6 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('
 
 ![node_menu_ldpk](imgs/node_menu_ldpk.png)
 
----
-
-### Export Lens Distortion Node
-
-
-
----
 
 ### Redistort Render Image
 
@@ -107,7 +101,10 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('
     - filter: <kbd>x</kbd>preserve bounding box
 
 1. LDPK Node
+    - 3DEqualizer에서 Export 한 `<lens_distortion_node>.nk`파일을 Import 한다.
+        - `Drag & Drop` or `File >> Insert Comp Nodes...`
     - direction: <kbd>distort</kbd>
 
 1. Merge Node
     - Merge `Redistorted Render Image` with `Original Plate`
+
