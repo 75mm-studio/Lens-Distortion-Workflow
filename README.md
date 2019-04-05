@@ -1,5 +1,9 @@
 # 3DEqualizer to Nuke - Lens Distortion Workflow
 
+## Overview
+
+### Methods
+
 - 3DEqualizer에서는 세 가지 워크플로우를 제공하고 있다. [참고영상](https://www.youtube.com/watch?v=khMwtfmynac).
 - 회사에 실정에 맞는 워크플로우를 선택하면 된다.
 - 프로덕션에서는 `LDPK`나 `STMAP`을 주로 사용한다.
@@ -10,15 +14,18 @@
 | LDPK | `사용법이 간단하다` `해상도에 종속되지 않는다` | `느리다` `설치가 필요하다` |
 | STMAP | `매우 빠르다` | `파일 용량이 크다` |
 
-## Overview
+### Workflow
 
 ```
 Original Plate Size: 1920 X 1080
 Overscan Value: 1.25
 Undistort Plate Size: 2400 X 1350
 ```
-1. 3DEqualizer에서 Warp4 플러그인을 사용해서 Undistort Plate를 생성한다.
-1. Maya에서 Un
+
+1. 3DEqualizer에서 Original Plate(1920 X 1080)로 트래킹 작업한다.
+1. 3DEqualizer에서 Warp4 플러그인을 사용해서 Undistort Plate(2400 X 1350)를 생성한다.
+`1920 곱하기 1.25`
+1. Maya에서 Undistort Plate
 
 ## Lens Distortion Plugin Kit(LDPK)
 
