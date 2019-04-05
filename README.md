@@ -27,7 +27,7 @@ Render Image Size: 2400 x 1350
 1. 3DEqualizer에서 Warp4 플러그인을 사용해서 Undistort Plate(2400 x 1350)를 생성한다.
     - `Original Plate Size` x `Overscan Value` = `Undistort Plate Size`
     - `1920 x 1.25 = 2400` `1080 x 1.25 = 1350`
-1. Maya에서 Render Image Size는 Undistort Plate Size와 동일해야 한다. :warning:**매우 중요**:warning:
+1. **Maya에서 Render Image Size는 Undistort Plate Size와 동일해야 한다.** :warning:**매우 중요**:warning:
 1. 
 
 ## Lens Distortion Plugin Kit(LDPK)
@@ -109,3 +109,7 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('
 
 
 1. LDPK Node
+    - direction: <kbd>distort</kbd>
+
+1. Merge Node
+    - Merge with `Original Plate``
