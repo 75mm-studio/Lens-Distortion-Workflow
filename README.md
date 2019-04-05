@@ -92,15 +92,12 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('
 
 ---
 
-### Undistort Original Plate
-
-
 ### Distort Render Elements
 
 1. Read Node
     - Image Size: 2400 X 1350
-
-![distort_checkerboard_dewarped](imgs/distort_checkerboard_dewarped.png)
+    
+    ![maya_render](imgs/maya_render.png)
 
 1. Reformat Node
 
