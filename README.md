@@ -105,7 +105,7 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('
 
 1. Reformat Node
     - output format: <original plate size>
-    - resize type: <kbd>none</kbd> :ballot_box_with_check: center
+    - resize type: <kbd>none</kbd>  <kbd>x</kbd>center
 
 
 1. LDPK Node
