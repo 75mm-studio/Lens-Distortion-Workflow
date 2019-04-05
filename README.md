@@ -94,7 +94,7 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('
 
 ### Distort Render Elements
 
-- Node Tree
+#### Node Tree
 
 ![nuke_tree](imgs/nuke_tree.png)
 
@@ -104,6 +104,8 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('
     ![maya_render](imgs/maya_render.png)
 
 1. Reformat Node
+    - output format: <original plate size>
+    - resize type: <kbd>none</kbd> :ballot_box_with_check: center
 
 
 1. LDPK Node
