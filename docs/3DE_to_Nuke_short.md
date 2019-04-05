@@ -1,4 +1,4 @@
-# 3DEqualizer to Nuke
+# 3DEqualizer to Nuke (Short)
 
 ## Overview
 
