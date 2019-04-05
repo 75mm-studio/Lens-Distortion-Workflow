@@ -116,13 +116,28 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('
 
 ![nuke_stmap_tree](imgs/nuke_stmap_tree.png)
 
-1. Read Node
+1. Read1 Node
+    - Render Image
+    - format: 2400 x 1350
 
-1. Reformat Node
+1. Reformat1 Node
+    - output format: `Original Plate Size` ex)1920 x 1080
+    - resize type: <kbd>none</kbd>  <kbd>x</kbd>center
+    - filter: <kbd>x</kbd>preserve bounding box    
 
 1. STMAP Node
-    - stmap plug: `<distort_stmap>.exr`
-    - src: `Reformat Node`
-
+    - stmap input: `Reformat2 Node`
+    - src input: `Reformat1 Node`
+    
+1. Read3 Node
+    - Distort STMAP
+    - `<distort_stmap>.exr`
+    - format: 2400 x 1350
+    
+1. Reformat2 Node
+    - output format: `Original Plate Size` ex)1920 x 1080
+    - resize type: <kbd>none</kbd>  <kbd>x</kbd>center
+    - filter: <kbd>x</kbd>preserve bounding box    
+    
 1. Merge Node
-    - Merge `STMAP` over `Original Plate`
+    - Merge `STMAP Node` over `Original Plate`
