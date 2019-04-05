@@ -17,17 +17,17 @@
 ### Workflow
 
 ```
-Original Plate Size: 1920 X 1080
+Original Plate Size: 1920 x 1080
 Overscan Value: 1.25
-Undistort Plate Size: 2400 X 1350
-Render Size: 2400 X 1350
+Undistort Plate Size: 2400 x 1350
+Render Image Size: 2400 x 1350
 ```
 
 1. 3DEqualizer에서 Original Plate(1920 x 1080)로 트래킹 작업한다.
 1. 3DEqualizer에서 Warp4 플러그인을 사용해서 Undistort Plate(2400 x 1350)를 생성한다.
     - `Original Plate Size` x `Overscan Value` = `Undistort Plate Size`
     - `1920 x 1.25 = 2400` `1080 x 1.25 = 1350`
-1. Maya에서 Render Size는 Undistort Plate Size와 동일해야 한다. :warning:**매우 중요**:warning:
+1. Maya에서 Render Image Size는 Undistort Plate Size와 동일해야 한다. :warning:**매우 중요**:warning:
 1. 
 
 ## Lens Distortion Plugin Kit(LDPK)
@@ -95,10 +95,11 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('
 ### Distort Render Elements
 
 1. Read Node
-    - Image Size: 2400 X 1350
+    - Render Image Size: 2400 x 1350
     
     ![maya_render](imgs/maya_render.png)
 
 1. Reformat Node
+
 
 1. LDPK Node
