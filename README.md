@@ -15,6 +15,7 @@
 | STMAP | `매우 빠르다` `¨범용성이 있다` | `¨파일 용량이 크다` |
 
 `¨Nuke 뿐만 아니라 Autodesk Flame에서도 STMAP으로 Lens Distortion 파이프라인을 구축 할 수 있다.`
+
 `¨STMAP은 일반적으로 '32-bit exr' 파일로 저장하기 때문에 용량이 굉장히 크다.`
 
 
