@@ -91,8 +91,8 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('
 
 ![nuke_tree](imgs/nuke_tree.png)
 
-1. Read Node    
-    ![maya_render](imgs/maya_render.png)
+1. Read Node
+    - Render Image
     - format: `Render Image Size` ex)2400 x 1350
 
 1. Reformat Node
@@ -118,7 +118,7 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('
 
 1. Read1 Node
     - Render Image
-    - format: 2400 x 1350
+    - format: `Render Image Size` ex)2400 x 1350
 
 1. Reformat1 Node
     - output format: `Original Plate Size` ex)1920 x 1080
@@ -128,6 +128,7 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('
 1. STMAP Node
     - stmap input: `Reformat2 Node`
     - src input: `Reformat1 Node`
+    - UV channels: <kbd>rgb</kbd>
     
 1. Read3 Node
     - Distort STMAP
