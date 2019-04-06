@@ -121,7 +121,7 @@ nuke.menu("Nodes").addCommand("3DE4/LD_3DE_Classic_LD_Model", "nuke.createNode('
 
 :warning: 이 문서는 **¨75mm Studio에서 제공하는 STMAP**을 기준으로 작성되었음을 알립니다. :warning:
 
-`¨STMAP을 만들 수 있는 방법이 다양해서, `
+`¨STMAP은 생성하는 방법에 따라서 사이즈가 달라진다. 사람마다 회사마다 사용하는 툴이 다르기 때문에, STMAP 사이즈가 다를 수 있다.`
 
 ### Redistort Render Image
 
