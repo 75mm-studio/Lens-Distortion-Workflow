@@ -27,7 +27,7 @@
     - 참고로 모든 렌즈에는 왜곡이 존재한다. 많고 적음의 차이지 없을 순 없다. 왜곡이 별로 없으면 그냥 무시하고 솔브하기도 한다.
 
 1. Fix
-    1. Grid Shot
+    1. Lens Distortion Grid
         - Good
         
             <img src="../imgs/LensGrid_red_Border_ClassicSmall.jpeg" height="300"/>
@@ -37,7 +37,7 @@
             <img src="../imgs/bad_reflection.jpg" height="250"/>
             
     1. Parameter Adjustment
-        - Grid Shot을 솔브하는 것 만큼 정확하지는 않지만, (정확한)2D Point가 풍부하면 어느정도 신용할 수 있는 결과가 나온다.
+        - Lens Distortion Grid를 솔브하는 것 만큼 정확하지는 않지만, (정확한)2D Point가 풍부하면 어느정도 신용할 수 있는 결과가 나온다.
         - 단순히 최소 애러값을 찾는 방식이기 떄문에, 전혀 엉뚱한 결과가 나오기도 한다.
 
 ---
