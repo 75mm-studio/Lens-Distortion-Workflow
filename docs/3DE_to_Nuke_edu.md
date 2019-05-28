@@ -34,7 +34,7 @@
             
         - Bad
             
-            <img src="../imgs/bad_reflection.jpg" height="250"/>
+            <img src="../imgs/bad_reflection.jpg" height="250"/> <img src="../imgs/nested.jpg" height="250"/>
             
     1. Parameter Adjustment
         - Lens Distortion Grid를 솔브하는 것 만큼 정확하지는 않지만, (정확한)2D Point가 풍부하면 어느정도 신용할 수 있는 결과가 나온다.
