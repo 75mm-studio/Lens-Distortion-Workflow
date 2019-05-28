@@ -17,7 +17,7 @@
             
         3. Moustache/Complex Distortion
         
-            <img src="../imgs/Wavy-Moustache-Distortion.png" height="250"/> <img src="../imgs/mustache.png" height="250"/>
+            <img src="../imgs/Wavy-Moustache-Distortion.png" height="250"/> <img src="../imgs/mustache.png" height="200"/>
         
     1. Tangential - 접선왜곡
         - 접선왜곡(tangential distortion)은 카메라 제조(조립) 과정에서 카메라 렌즈와 이미지센서(CCD, CMOS)의 수평이 맞지 않거나 또는 렌즈 자체의 centering이 맞지 않아서 발생하는 왜곡
