@@ -14,6 +14,9 @@
             <img src="../imgs/Pincushion-Distortion.png" height="250"/> <img src="../imgs/pincushion.jpg" height="250"/>
             
         3. Moustache/Complex Distortion
+        
+            <img src="../imgs/Wavy-Moustache-Distortion.png" height="250"/>
+        
     1. Tangential - 접선왜곡
 
 1. Fix
@@ -47,6 +50,7 @@
 ---
 
 # References
-
+_ [How Lenses Function](https://youtu.be/EL9J3Km6wxI)
+- [How Canon EF Lenses Are Made](https://youtu.be/59BfFQuX1rg)
 - [다크 프로그래머 :: 카메라 왜곡보정 - 이론 및 실제](https://darkpgmr.tistory.com/31)
 - [What is Distortion? - Photography Life](https://photographylife.com/what-is-distortion)
