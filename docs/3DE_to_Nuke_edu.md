@@ -24,11 +24,12 @@
 
 1. Problem
     - 렌즈왜곡을 보정하지 않으면 솔브가 제대로 되지않는다.
-    - 수평/수직 구조물이 둥그렇게 나옴.
-    - 참고로 모든 렌즈에는 왜곡이 존재한다. 많고 적음의 차이지 없을 순 없다. 왜곡이 
+    - 참고로 모든 렌즈에는 왜곡이 존재한다. 많고 적음의 차이지 없을 순 없다. 왜곡이 별로 없으면 그냥 무시하고 솔브하기도 한다.
 
 1. Fix
     1. Grid Shot
+        - Good
+        - Bad
     1. Parameter Adjustment
         - Grid Shot을 솔브하는 것 만큼 정확하지는 않지만, (정확한)2D Point가 풍부하면 어느정도 신용할 수 있는 결과가 나온다.
         - 단순히 최소 애러값을 찾는 방식이기 떄문에, 결과값을 100% 신용하면 안된다.
@@ -41,7 +42,7 @@
 
 ## 3DEqualizer
 1. Export Undistorted/Dewarped Plates
-    -Overscan Value
+    - Overscan Value
 1. Export Nuke LD_3DE4 Lens Distortion Node
 1. Export Project to Maya
 
