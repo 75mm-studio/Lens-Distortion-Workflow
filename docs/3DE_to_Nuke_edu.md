@@ -33,8 +33,15 @@
         - Grid Shot을 솔브하는 것 만큼 정확하지는 않지만, (정확한)2D Point가 풍부하면 어느정도 신용할 수 있는 결과가 나온다.
         - 단순히 최소 애러값을 찾는 방식이기 떄문에, 결과값을 100% 신용하면 안된다.
 
+---
+
+## Example Project Info
+- Raw Footage Image Size: 1920 × 1080 px
+- Film Back/Film Aperture Size: 17.3 × 9.73 mm
+
 ## 3DEqualizer
 1. Export Undistorted/Dewarped Plates
+    -Overscan Value
 1. Export Nuke LD_3DE4 Lens Distortion Node
 1. Export Project to Maya
 
@@ -44,7 +51,7 @@
 ### Setup
 1. Import 3DE Project
 1. Overscan
-    1. Film Aperture
+    1. Film Back/Film Aperture
     1. Image Plane
 
 ### Render
