@@ -2,6 +2,8 @@
 
 ## Lens Distortion
 1. What is **Lens Distortion**
+    - 
+    - Perspective Distortion하고 혼동하면 안된다.
 
 1. Type
     1. Radial Distortion - 방사왜곡
@@ -20,6 +22,11 @@
         
     1. Tangential - 접선왜곡
         - 접선왜곡(tangential distortion)은 카메라 제조(조립) 과정에서 카메라 렌즈와 이미지센서(CCD, CMOS)의 수평이 맞지 않거나 또는 렌즈 자체의 centering이 맞지 않아서 발생하는 왜곡
+
+1. Problem
+    - 렌즈왜곡을 보정하지 않으면 솔브가 제대로 되지않는다.
+    - 수평/수직 구조물이 둥그렇게 나옴.
+    - 참고로 모든 렌즈에는 왜곡이 존재한다. 많고 적음의 차이지 없을 순 없다. 왜곡이 
 
 1. Fix
     1. Grid Shot
