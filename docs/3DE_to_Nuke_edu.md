@@ -43,12 +43,14 @@
 ---
 
 ## Example Project Info
-- Raw Footage Image Size: 1920 × 1080 px
 - Film Back/Film Aperture Size: 17.3 × 9.73 mm
+- Original Plate Image Size: 1920 × 1080 px
+- Overscan Percentage Width & Height: 10%
+- Undistorted/Dewarped Plate Image Size: 2112 × 1188 px (1920 × 1.1 = 2112, 1080 × 1.1 = 1188)
 
 ## 3DEqualizer
 1. Export Undistorted/Dewarped Plates
-    - Overscan Value
+    - Overscan Percentage: 10%
 1. Export Nuke LD_3DE4 Lens Distortion Node
 1. Export Project to Maya
 
