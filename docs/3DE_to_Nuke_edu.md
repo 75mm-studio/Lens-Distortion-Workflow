@@ -7,7 +7,7 @@
     1. Radial Distortion - 방사왜곡
         1. Barrel Distortion
             
-            <img src="../imgs/Barrel-Distortion.png" height="250"/> <img src="../imgs/Wine_Barrel.jpg" height="250"/>
+            <img src="../imgs/Barrel-Distortion.png" height="250"/> <img src="../imgs/Wine-Barrel.jpg" height="250"/>
             
         2. Pincushion Distortion
         
