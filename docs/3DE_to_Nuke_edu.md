@@ -2,6 +2,9 @@
 
 ## Lens Distortion
 1. What is **Lens Distortion**
+
+    <img src="../imgs/fisheye.jpg" height="350"/>
+    
     - Optical Distortion라고도 함.
     - Perspective Distortion하고 혼동하면 안된다.
 
