@@ -73,3 +73,4 @@
 - [다크 프로그래머 :: 카메라 왜곡보정 - 이론 및 실제](https://darkpgmr.tistory.com/31)
 - [What is Distortion? - Photography Life](https://photographylife.com/what-is-distortion)
 - [Distortion | 에드몬드 옵틱스 - Edmund Optics](https://www.edmundoptics.co.kr/resources/application-notes/imaging/distortion/)
+- [DIY Lens Distortion Acquisition — TRIZ VFX](http://trizvfx.com/lens-distortion-acquisition)
