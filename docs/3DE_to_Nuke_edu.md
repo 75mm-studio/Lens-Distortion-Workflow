@@ -3,7 +3,7 @@
 ## Lens Distortion
 1. What is **Lens Distortion**
 
-    <img src="../imgs/fisheye.jpg" height="350"/>
+    <img src="../imgs/fisheye.jpg" height="350" alt="https://cdn.windowsreport.com/wp-content/uploads/2018/03/lens-distortion-windows.jpg"/>
     
     - Optical Distortion라고도 함.
     - Perspective Distortion하고 혼동하면 안된다.
