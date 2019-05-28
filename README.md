@@ -12,6 +12,6 @@
 
 매치무브 아티스트 교육을 위한 가이드.
 
-### 3DEqualizer to Foundry Nuke
+### [3DEqualizer to Foundry Nuke](docs/3DE_to_Nuke_edu.md)
 
 ### 3DEqualizer to Autodesk Flame
