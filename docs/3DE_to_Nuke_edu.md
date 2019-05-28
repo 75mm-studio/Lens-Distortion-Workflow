@@ -1,10 +1,15 @@
 # Lens Distortion Workflow
 
 ## Lens Distortion
+1. What is **Lens Distortion**
+
 1. Type
     1. Radial Distortion - 방사왜곡
     1. Tangential - 접선왜곡
 
+1. Fix
+    1. Grid Shot
+    1. Parameter Adjustment
 
 ## 3DEqualizer
 1. Export Undistorted/Dewarped Plates
