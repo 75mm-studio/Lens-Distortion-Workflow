@@ -5,6 +5,7 @@
 
 1. Type
     1. Radial Distortion - 방사왜곡
+        - 방사왜곡은 볼록렌즈의 굴절률에 의한 것으로서 아래 그림과 같이 영상의 왜곡 정도가 중심에서의 거리에 의해 결정되는 왜곡
         1. Barrel Distortion
             
             <img src="../imgs/Barrel-Distortion.png" height="250"/> <img src="../imgs/Wine-Barrel.jpg" height="250"/>
@@ -18,6 +19,7 @@
             <img src="../imgs/Wavy-Moustache-Distortion.png" height="250"/>
         
     1. Tangential - 접선왜곡
+        - 접선왜곡(tangential distortion)은 카메라 제조(조립) 과정에서 카메라 렌즈와 이미지센서(CCD, CMOS)의 수평이 맞지 않거나 또는 렌즈 자체의 centering이 맞지 않아서 발생하는 왜곡
 
 1. Fix
     1. Grid Shot
@@ -54,3 +56,4 @@ _ [How Lenses Function](https://youtu.be/EL9J3Km6wxI)
 - [How Canon EF Lenses Are Made](https://youtu.be/59BfFQuX1rg)
 - [다크 프로그래머 :: 카메라 왜곡보정 - 이론 및 실제](https://darkpgmr.tistory.com/31)
 - [What is Distortion? - Photography Life](https://photographylife.com/what-is-distortion)
+- [Distortion | 에드몬드 옵틱스 - Edmund Optics](https://www.edmundoptics.co.kr/resources/application-notes/imaging/distortion/)
