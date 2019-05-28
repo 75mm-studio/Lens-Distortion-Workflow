@@ -5,6 +5,9 @@
 
 1. Type
     1. Radial Distortion - 방사왜곡
+        1. Barrel Distortion
+        2. Pincushion Distortion
+        3. Moustache/Complex Distortion
     1. Tangential - 접선왜곡
 
 1. Fix
