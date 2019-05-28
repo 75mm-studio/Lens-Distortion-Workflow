@@ -51,15 +51,15 @@
 ## 3DEqualizer
 1. Export Undistorted/Dewarped Plates
     - Overscan Percentage: 10%
+    - Warp4 GUI 버젼은 버그가 좀 있다.
 1. Export Nuke LD_3DE4 Lens Distortion Node
 1. Export Project to Maya
-
 
 ## Maya
 
 ### Setup
 1. Import 3DE Project
-1. Overscan
+1. Overscan Compensation
     1. Film Back/Film Aperture
     1. Image Plane
 
