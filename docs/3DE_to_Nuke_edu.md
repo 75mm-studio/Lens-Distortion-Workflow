@@ -67,13 +67,14 @@
 
 ### Render
 1. Render Settings
-    1. Image Size = Undistorted/Dewarped Plate Size
+    1. Image Size: 2112 × 1188 px (Undistorted/Dewarped Plate Size)
 
 ## Nuke
 
 ### Install
 
 ### Redistort/Distort Node Tree
+
 
 ---
 
