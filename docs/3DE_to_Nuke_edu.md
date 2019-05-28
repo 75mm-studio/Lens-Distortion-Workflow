@@ -2,6 +2,7 @@
 
 ## Lens Distortion
 1. What is **Lens Distortion**
+    - Optical Distortion라고도 함.
     - Perspective Distortion하고 혼동하면 안된다.
 
 1. Type
