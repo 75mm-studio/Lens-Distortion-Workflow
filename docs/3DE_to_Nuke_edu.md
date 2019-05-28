@@ -6,6 +6,9 @@
 1. Type
     1. Radial Distortion - 방사왜곡
         1. Barrel Distortion
+            
+            <img src="../imgs/Barrel-Distortion.png" height="250"/>
+            
         2. Pincushion Distortion
         
             <img src="../imgs/Pincushion-Distortion.png" height="250"/> <img src="../imgs/pincushion.jpg" height="250"/>
