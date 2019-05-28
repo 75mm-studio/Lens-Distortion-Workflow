@@ -7,8 +7,9 @@
     1. Radial Distortion - 방사왜곡
         1. Barrel Distortion
         2. Pincushion Distortion
-            <img src="../imgs/Pincushion-Distortion.png" height="300"/>
-            ![Pincushion-Distortio](../imgs/Pincushion-Distortion.png) ![pincushion](../imgs/pincushion.jpg)
+        
+            <img src="../imgs/Pincushion-Distortion.png" height="250"/> <img src="../imgs/pincushion.jpg" height="250"/>
+            
         3. Moustache/Complex Distortion
     1. Tangential - 접선왜곡
 
