@@ -67,7 +67,7 @@
 
     <img src="../imgs/warp4.png"/>
     
-    - Temp Overscan Percentage Width & Height: 5%
+    - Overscan Percentage: 5%
     - Undistorted/Dewarped Plate Image Size: 2033 × 1353 px
         - 1936 × 1.05 = 2032.8 >> 2033
         - 1288 × 1.05 = 1352.4 >> 1353
@@ -83,14 +83,19 @@
 
 ### Setup
 1. Import 3DE Project
+1. Replace Image Plane with Undistorted/Dewarped Plate
 1. Overscan Compensation
     1. Overscan Value
-        - Width: 2033 ÷ 1936 = 1.0501…
-        - Height: 1353 ÷ 1288 = 1.0504…
-    1. Film Back/Film Aperture
-        - 22.20 × 1.05 = 2032.8 >> 2033
-        - 14.77 × 1.05 = 1352.4 >> 1353
-    1. Image Plane
+        - Width: 2033 ÷ 1936 = 1.0501
+        - Height: 1353 ÷ 1288 = 1.0504
+    1. Change Film Back/Film Aperture
+        - Horizontal Film Aperture: 22.20 × 1.0501 = 23.3122 mm
+        - Vertical Film Aperture: 14.77 × 1.0504 = 15.5144 mm
+    1. Change Image Plane Size
+        - Size X: 
+        - Size Y: 
+    
+    - 종합 VFX 스튜디오에서는 Lens Distortion Workflow를 자동화
     
 ### Add CG Elements
 
