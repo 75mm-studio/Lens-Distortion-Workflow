@@ -90,6 +90,7 @@
 ---
 
 # References
+- [KR100744937B1 - 렌즈 왜곡 보정 방법 - Google Patents](https://patents.google.com/patent/KR100744937B1/ko)
 - [How Lenses Function](https://youtu.be/EL9J3Km6wxI)
 - [How Canon EF Lenses Are Made](https://youtu.be/59BfFQuX1rg)
 - [다크 프로그래머 :: 카메라 왜곡보정 - 이론 및 실제](https://darkpgmr.tistory.com/31)
