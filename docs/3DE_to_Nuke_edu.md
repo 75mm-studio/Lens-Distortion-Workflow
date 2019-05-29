@@ -79,7 +79,7 @@
     - Warp4 GUI 버젼은 버그가 좀 있다.
 1. Export Nuke LD_3DE4 Lens Distortion Node
     
-    <img src="../imgs/LD_3DE4_v2.png" height="125"/> <img src="../imgs/LD_3DE4_dialog_v2.png" height="125"/>
+    <img src="../imgs/LD_3DE4_v2.png" height="130"/> <img src="../imgs/LD_3DE4_dialog_v2.png" height="130"/>
     
 1. Export Project to Maya
 
