@@ -58,7 +58,7 @@
 ## Example Project Info
 - Camera: [Canon EOS 40D](http://web.canon.jp/imaging/eosd/eos40d/specifications.html)
 - Focal Length: 24 mm
-- Film Back/Film Aperture Size: 22.2 × 14.8 mm
+- Film Back/Film Aperture Size: 22.20 × 14.77 mm
 - Original Plate Image Size: 1936 × 1288 px
 
     <img src="../files/stA/stA.0001.jpg" height="300"/>
