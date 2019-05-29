@@ -56,8 +56,13 @@
 ---
 
 ## Example Project Info
-- Film Back/Film Aperture Size: 17.3 × 9.73 mm
+- Camera: [Canon EOS 40D](http://web.canon.jp/imaging/eosd/eos40d/specifications.html)
+- Focal Length: 24 mm
+- Film Back/Film Aperture Size: 22.2 × 14.8 mm
 - Original Plate Image Size: 1920 × 1080 px
+
+    <img src="../files/stA/stA.0001.jpg" height="300"/>
+    
 - Overscan Percentage Width & Height: 10%
 - Undistorted/Dewarped Plate Image Size: 2112 × 1188 px (1920 × 1.1 = 2112, 1080 × 1.1 = 1188)
 
