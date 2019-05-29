@@ -91,14 +91,14 @@
         
     1. Change Film Back/Film Aperture
     
-        <img src="../imgs/camera_attr.png" height="400"/>
+        <img src="../imgs/camera_attr.png" height="450"/>
         
         - Horizontal Film Aperture (inch): 0.874 × 1.0501 = 0.9177
         - Vertical Film Aperture (inch): 0.581 × 1.0504 = 0.6102
         
     1. Change Image Plane Size
         
-        <img src="../imgs/imageplane_attr.png" height="400"/>
+        <img src="../imgs/imageplane_attr.png" height="450"/>
         
         - Size X: 0.874 × 1.0501 = 0.9177
         - Size Y: 0.581 × 1.0504 = 0.6102
