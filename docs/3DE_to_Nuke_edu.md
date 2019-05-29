@@ -77,6 +77,8 @@
     
     <img src="../imgs/LD_3DE4_v2.png" height="130"/> <img src="../imgs/LD_3DE4_dialog_v2.png" height="130"/>
     
+    - 3DE4 :: File :: Export :: Export Nuke LD_3DE4 Lens Distortion Node 
+    
 1. Export Project to Maya
 
 ## Maya
