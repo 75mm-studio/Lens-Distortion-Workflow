@@ -60,7 +60,7 @@
 - Film Back/Film Aperture Size: 22.20 × 14.77 mm
 - Original Plate Image Size: 1936 × 1288 px
 
-    <img src="../files/stA/stA.0001.jpg" height="300"/>
+    <img src="../files/stA/stA.0001.jpg"/>
     
 - Overscan Percentage Width & Height: 5%
 - Undistorted/Dewarped Plate Image Size: 2033 × 1352 px
