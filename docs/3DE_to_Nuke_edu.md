@@ -67,10 +67,11 @@
 
     <img src="../imgs/warp4.png"/>
     
-    - Overscan Percentage Width & Height: 5%
-    - Undistorted/Dewarped Plate Image Size: 2033 × 1352 px
-        - 1936 × 1.05 = 2032.8
-        - 1288 × 1.05 = 1352.4
+    - Temp Overscan Percentage Width & Height: 5%
+    - Undistorted/Dewarped Plate Image Size: 2033 × 1353 px
+        - 1936 × 1.05 = 2032.8 >> 2033
+        - 1288 × 1.05 = 1352.4 >> 1353
+        - Rounding Up
     - Warp4 GUI 버젼은 버그가 좀 있다.
 1. Export Nuke LD_3DE4 Lens Distortion Node
     
@@ -83,12 +84,19 @@
 ### Setup
 1. Import 3DE Project
 1. Overscan Compensation
+    1. Overscan Value
+        - Width: 2033 ÷ 1936 = 1.0501…
+        - Height: 1353 ÷ 1288 = 1.0504…
     1. Film Back/Film Aperture
+        - 22.20 × 1.05 = 2032.8 >> 2033
+        - 14.77 × 1.05 = 1352.4 >> 1353
     1. Image Plane
+    
+### Add CG Elements
 
 ### Render
 1. Render Settings
-    1. Image Size: 2033 × 1352 px (Undistorted/Dewarped Plate Size)
+    1. Image Size: 2033 × 1353 px (Undistorted/Dewarped Plate Size)
 
 ## Nuke
 
