@@ -59,12 +59,12 @@
 - Camera: [Canon EOS 40D](http://web.canon.jp/imaging/eosd/eos40d/specifications.html)
 - Focal Length: 24 mm
 - Film Back/Film Aperture Size: 22.2 × 14.8 mm
-- Original Plate Image Size: 1920 × 1080 px
+- Original Plate Image Size: 1936 × 1288 px
 
     <img src="../files/stA/stA.0001.jpg" height="300"/>
     
-- Overscan Percentage Width & Height: 10%
-- Undistorted/Dewarped Plate Image Size: 2112 × 1188 px (1920 × 1.1 = 2112, 1080 × 1.1 = 1188)
+- Overscan Percentage Width & Height: 5%
+- Undistorted/Dewarped Plate Image Size: 2033 × 1352 px (1936 × 1.05 = 2032.8, 1288 × 1.05 = 1352.4)
 
 ## 3DEqualizer
 1. Export Undistorted/Dewarped Plates
