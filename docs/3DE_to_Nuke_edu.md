@@ -42,7 +42,7 @@
             
         - Bad
             
-            <img src="../imgs/bad_reflection.jpg" height="225"/> <img src="../imgs/nested.jpg" height="225"/>
+            <img src="../imgs/bad_reflection.jpg" height="225"/> <img src="../imgs/nested.jpg" height="225"/><br><img src="../imgs/lens_chart.jpg" height="225"/>
         
         - 제작
             - 평평해야 한다. 그리드 자체에 굴곡이 있으면 안된다.
