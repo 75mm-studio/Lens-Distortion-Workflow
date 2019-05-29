@@ -88,10 +88,17 @@
     1. Overscan Value
         - Width: 2033 ÷ 1936 = 1.0501
         - Height: 1353 ÷ 1288 = 1.0504
+        
     1. Change Film Back/Film Aperture
+    
+        <img src="../imgs/camera_attr.png" height="200"/>
+        
         - Horizontal Film Aperture (inch): 0.874 × 1.0501 = 0.9177
         - Vertical Film Aperture (inch): 0.581 × 1.0504 = 0.6102
+        
     1. Change Image Plane Size
+    
+        <img src="../imgs/imageplane_attr.png" height="200"/>
         - Size X: 0.874 × 1.0501 = 0.9177
         - Size Y: 0.581 × 1.0504 = 0.6102
     
