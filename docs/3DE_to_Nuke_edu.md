@@ -57,7 +57,6 @@
 
 ## Example Project Info
 - Camera: [Canon EOS 40D](http://web.canon.jp/imaging/eosd/eos40d/specifications.html)
-- Focal Length: 24 mm
 - Film Back/Film Aperture Size: 22.20 × 14.77 mm
 - Original Plate Image Size: 1936 × 1288 px
 
@@ -85,7 +84,7 @@
 
 ### Render
 1. Render Settings
-    1. Image Size: 2112 × 1188 px (Undistorted/Dewarped Plate Size)
+    1. Image Size: 2033 × 1352 px (Undistorted/Dewarped Plate Size)
 
 ## Nuke
 
