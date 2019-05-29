@@ -89,11 +89,11 @@
         - Width: 2033 ÷ 1936 = 1.0501
         - Height: 1353 ÷ 1288 = 1.0504
     1. Change Film Back/Film Aperture
-        - Horizontal Film Aperture: 22.20 × 1.0501 = 23.3122 mm
-        - Vertical Film Aperture: 14.77 × 1.0504 = 15.5144 mm
+        - Horizontal Film Aperture (inch): 0.874 × 1.0501 = 0.9177
+        - Vertical Film Aperture (inch): 0.581 × 1.0504 = 0.6102
     1. Change Image Plane Size
-        - Size X: 
-        - Size Y: 
+        - Size X: 0.874 × 1.0501 = 0.9177
+        - Size Y: 0.581 × 1.0504 = 0.6102
     
     - 종합 VFX 스튜디오에서는 Lens Distortion Workflow를 자동화
     
