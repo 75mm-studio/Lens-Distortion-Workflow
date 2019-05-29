@@ -103,8 +103,6 @@
         - Size X: 0.874 × 1.0501 = 0.9177
         - Size Y: 0.581 × 1.0504 = 0.6102
     
-    - 종합 VFX 스튜디오에서는 Lens Distortion Workflow를 자동화
-    
 ### Add CG Elements
 
 ### Render
