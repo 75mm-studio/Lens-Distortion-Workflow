@@ -61,11 +61,6 @@
 - Original Plate Image Size: 1936 × 1288 px
 
     <img src="../files/stA/stA.0001.jpg" height="250"/>
-    
-- Overscan Percentage Width & Height: 5%
-- Undistorted/Dewarped Plate Image Size: 2033 × 1352 px
-    - 1936 × 1.05 = 2032.8
-    - 1288 × 1.05 = 1352.4
 
 ## 3DEqualizer
 1. Export Undistorted/Dewarped Plates with Warp4
