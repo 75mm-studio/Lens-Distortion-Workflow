@@ -111,7 +111,7 @@
 
 ## Nuke
 
-### Install
+### [Install](https://github.com/75mm-studio/Lens-Distortion-Workflow/blob/master/docs/3DE_to_Nuke_short.md#lens-distortion-plugin-kitldpk)
 
 ### Redistort/Distort Node Tree
 
