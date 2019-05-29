@@ -3,7 +3,7 @@
 ## Lens Distortion
 1. What is **Lens Distortion**
 
-    <img src="../imgs/fisheye.jpg" height="350" alt="https://cdn.windowsreport.com/wp-content/uploads/2018/03/lens-distortion-windows.jpg"/>
+    <img src="../imgs/fisheye.jpg" height="300" alt="https://cdn.windowsreport.com/wp-content/uploads/2018/03/lens-distortion-windows.jpg"/> <img src="../imgs/distort_diff.jpg" height="300"/>
     
     일반적으로, 휴대폰에 내장된 카메라 등과 같은 디지털 카메라는 렌즈와 이 렌즈를 통해 입사되는 영상을 검출하는 CCD 또는 CMOS와 같은 이미지 센서로 이루어진다. 상기 렌즈를 투과한 영상은 렌즈 자체가 갖는 여러가지 광학적 특성으로 인해 실제 육안으로 보이는 영상과 여러가지 면에서 차이가 있다. 육안으로 보이는 영상과 렌즈를 통과하여 이미지 센서에 검출된 영상의 차이점을 렌즈 수차라고 하며, 렌즈의 설계, 제작 시 렌즈 수차를 제거하여 육안으로 보이는 것과 실질적으로 동일한 영상을 얻고자하는데 많은 연구가 이루어지고 있는 실정이다.
     
