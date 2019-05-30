@@ -13,7 +13,10 @@
 
 1. Type
     1. Radial Distortion - 방사왜곡
-        - 방사왜곡은 볼록렌즈의 굴절률에 의한 것으로서 아래 그림과 같이 영상의 왜곡 정도가 중심에서의 거리에 의해 결정되는 왜곡
+    
+        <img src="../imgs/radial_distortion.png" height="300"/>
+    
+        - 방사왜곡은 볼록렌즈의 굴절률에 의한 것으로서 위 그림과 같이 영상의 왜곡 정도가 중심에서의 거리에 의해 결정되는 왜곡
         1. Barrel Distortion
             
             <img src="../imgs/Barrel-Distortion.png" height="250"/> <img src="../imgs/Wine-Barrel.jpg" height="250"/>
@@ -27,6 +30,9 @@
             <img src="../imgs/Wavy-Moustache-Distortion.png" height="250"/>
         
     1. Tangential - 접선왜곡
+    
+        <img src="../imgs/tangential_distortion.png" height="300"/>
+    
         - 접선왜곡(tangential distortion)은 카메라 제조(조립) 과정에서 카메라 렌즈와 이미지센서(CCD, CMOS)의 수평이 맞지 않거나 또는 렌즈 자체의 centering이 맞지 않아서 발생하는 왜곡
 
 1. Problem
