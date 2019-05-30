@@ -106,8 +106,13 @@
         - Size Y: 0.581 × 1.0504 = 0.6102
     
 ### Add CG Elements
+    
+<img src="../files/stA/maya_pb/maya_pb.0001.jpg" height="350"/>
 
 ### Render
+
+<img src="../files/stA/maya_render/stA_render.0001.png" height="350"/>
+
 1. Render Settings
     1. Image Size: 2033 × 1353 px (Undistorted/Dewarped Plate Size)
 
