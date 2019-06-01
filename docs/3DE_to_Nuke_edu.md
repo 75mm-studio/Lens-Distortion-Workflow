@@ -139,7 +139,7 @@
     
 1. Reformat
 
-    <img src="../imgs/redistort_node_tree/reformat.png" height="300"/>
+    <img src="../imgs/redistort_node_tree/reformat_fix.png" height="300"/>
     
     - output format: 1936 × 1288 px (Original Plate Size)
     - resize type: <kbd>none</kbd>, <kbd>×</kbd> center
@@ -147,7 +147,7 @@
     
 1. LD_3DE4
 
-    <img src="../imgs/redistort_node_tree/ldpk.png" height="300"/>
+    <img src="../imgs/redistort_node_tree/ldpk_fix.png" height="300"/>
     
     - Node Graph에 nk파일을 Drag & Drop
     - direction: <kbd>distort</kbd>
@@ -158,7 +158,7 @@
 
 1. Merge
 
-    <img src="../imgs/redistort_node_tree/read_original.png" height="300"/>
+    <img src="../imgs/redistort_node_tree/merege.png" height="300"/>
 
 1. Final
 
