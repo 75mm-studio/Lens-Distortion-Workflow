@@ -158,7 +158,7 @@
 
 1. Merge
 
-    <img src="../imgs/redistort_node_tree/merege.png" height="300"/>
+    <img src="../imgs/redistort_node_tree/merge.png" height="300"/>
 
 1. Final
 
