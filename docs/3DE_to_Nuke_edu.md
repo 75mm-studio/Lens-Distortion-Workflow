@@ -63,7 +63,7 @@
 ## Example Project Info
 - Camera: [Canon EOS 40D](http://web.canon.jp/imaging/eosd/eos40d/specifications.html)
 - Film Back/Film Aperture Size: 22.20 × 14.77 mm
-- Original Plate Image Size: 1936 × 1288 px
+- Original Plate Size: 1936 × 1288 px
 
     <img src="../files/stA/stA.0001.jpg" height="250"/>
 
@@ -133,11 +133,14 @@
 
 1. Read Render
 
-    <img src="../imgs/redistort_node_tree/read_original.png" height="300"/>
+    <img src="../imgs/redistort_node_tree/read_render.png" height="300"/>
     
 1. Reformat
 
-    <img src="../imgs/redistort_node_tree/read_original.png" height="300"/>
+    <img src="../imgs/redistort_node_tree/reformat.png" height="300"/>
+    
+    - output format: Original Plate Size(1936 × 1288)
+    - resize type: <kbd>none<kbd/>, <kbd>×<kbd/> center
     
 1. LD_3DE4
 
