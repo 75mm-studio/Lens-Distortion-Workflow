@@ -127,7 +127,7 @@
 
 ### Redistort/Distort Node Tree
 
-<img src="../imgs/redistort_node_tree/redistort_node_tree.png" height="450"/>
+<img src="../imgs/redistort_node_tree/redistort_node_tree.png" height="550"/>
 
 ### Node Details
 
