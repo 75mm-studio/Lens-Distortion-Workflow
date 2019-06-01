@@ -160,6 +160,10 @@
 
     <img src="../imgs/redistort_node_tree/read_original.png" height="300"/>
 
+1. Final
+
+    <img src="../imgs/redistort_node_tree/stA_comp-optimize.gif" height="500"/>
+
 ---
 
 # References
