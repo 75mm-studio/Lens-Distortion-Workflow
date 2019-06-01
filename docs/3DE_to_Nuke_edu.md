@@ -73,7 +73,7 @@
     <img src="../imgs/warp4.png"/>
     
     - Overscan Percentage: 5%
-    - Undistorted/Dewarped Plate Image Size: 2033 × 1353 px
+    - Undistorted/Dewarped Plate Size: 2033 × 1353 px
         - 1936 × 1.05 = 2032.8 >> 2033
         - 1288 × 1.05 = 1352.4 >> 1353
         - Rounding Up
@@ -135,16 +135,22 @@
 
     <img src="../imgs/redistort_node_tree/read_render.png" height="300"/>
     
+    - Image Size: 2033 × 1353 px (Undistorted/Dewarped Plate Size)
+    
 1. Reformat
 
     <img src="../imgs/redistort_node_tree/reformat.png" height="300"/>
     
-    - output format: Original Plate Size(1936 × 1288)
-    - resize type: <kbd>none<kbd/>, <kbd>×<kbd/> center
+    - output format: 1936 × 1288 px (Original Plate Size)
+    - resize type: <kbd>none</kbd>, <kbd>×</kbd> center
+    - filter: <kbd>×</kbd> preserve bounding box
     
 1. LD_3DE4
 
     <img src="../imgs/redistort_node_tree/ldpk.png" height="300"/>
+    
+    - Node Graph에 nk파일을 Drag & Drop
+    - direction: <kbd>distort</kbd>
     
 1. Read Original
 
