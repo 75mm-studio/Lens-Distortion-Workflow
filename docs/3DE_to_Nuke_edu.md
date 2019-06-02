@@ -160,9 +160,9 @@
 
     <img src="../imgs/redistort_node_tree/merge.png" height="300"/>
 
-1. Final
+1. Viewer
 
-    <img src="../imgs/redistort_node_tree/stA_comp-optimize.gif" height="500"/>
+    ![stA_comp-optimize.gif](../imgs/redistort_node_tree/stA_comp-optimize.gif)
 
 ---
 
