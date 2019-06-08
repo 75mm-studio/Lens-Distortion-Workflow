@@ -87,6 +87,8 @@
     
 1. Export Project to Maya
 
+    <img src="../imgs/export_project_to_maya.png" height="250"/> <img src="../imgs/export_project_to_maya_dialog.png" height="250"/>
+
 ## Maya
 
 ### Setup
