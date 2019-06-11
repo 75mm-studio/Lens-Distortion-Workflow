@@ -1,7 +1,7 @@
 # Lens Distortion Workflow
 
 ## Lens Distortion
-1. What is **Lens Distortion**
+1. [What is **Lens Distortion**](https://youtu.be/FF1DEfdNe1U)
 
     <img src="../imgs/fisheye.jpg" height="300"/> <img src="../imgs/distort_diff.jpg" height="300"/>
     
